@@ -53,6 +53,7 @@ function newElement() {
   span.appendChild(txt);
   li.appendChild(span);
 
+//期限の表示
   var span0 = document.createElement("SPAN0");
   var txt0 = document.createTextNode(inputDateValue);
   span0.className = "date";
